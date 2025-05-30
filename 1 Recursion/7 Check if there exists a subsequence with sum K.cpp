@@ -25,5 +25,5 @@ int findWays(vector<int>& arr, int k)
     int currSum = 0;
 	solve(arr.size(), 0, arr, currSum, k, flag);
 
-	return count;
+	return flag;
 }
